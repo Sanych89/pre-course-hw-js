@@ -21,7 +21,7 @@ switch (true) {
     case rule.length < 25: 
         console.log("Все таки нет правил без исключения");
         break;             
-    case rule.length === 25:
+    case rule.length == 25:
         console.log('50 на 50');
         break; 
     case rule.length > 25:
