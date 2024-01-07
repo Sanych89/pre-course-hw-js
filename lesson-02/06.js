@@ -10,8 +10,9 @@ let passportWithAddress = {
 
 let passportWithAddress2 = {...passportWithAddress}
 let address2 = {...passportWithAddress.address}
-address2.city = 'Bobryisk'
-passportWithAddress2.address=address2
+address2.city='Bobryisk'
+passportWithAddress2.address = address2
 
-console.log(passportWithAddress)
-console.log(passportWithAddress2)
+
+console.log(passportWithAddress.address.city)
+console.log(passportWithAddress2.address.city)
