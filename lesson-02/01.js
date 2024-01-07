@@ -1,1 +1,4 @@
-// code
+doArrow = (value) => {
+    console.log(value);
+}
+
