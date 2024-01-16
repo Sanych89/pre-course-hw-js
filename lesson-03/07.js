@@ -5,7 +5,7 @@ const numbers = [
 ];
   
 numbers.map(row => { 
-    row.filter(el  => el % 2 === 0); 
+    console.log(row.filter(el  => el % 2 === 0)); 
 });  
 
 
